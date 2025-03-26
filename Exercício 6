@@ -1,0 +1,26 @@
+programa {
+  funcao inicio() {
+    inteiro a, b, c, x1, x2, x3
+
+    escreva ("Escreva o valor de a: ")
+    leia (a)
+    escreva ("Escreva o valor de b: ")
+    leia (b)
+    escreva ("Escreva o valor de c: ")
+    leia (c)
+
+    x1 = -1
+    x2 = 1
+    x3 = 0
+
+    se (a >= b >= c)
+    escreva (x2)
+
+    senao se (c >=b >= a)
+    escreva (x1)
+
+    senao
+    escreva (x3)
+    
+  }
+}
