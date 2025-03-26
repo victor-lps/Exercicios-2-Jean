@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() {
+    real a, b, c, delta
+
+    escreva("Escreva o valor de a: ")
+    leia (a)
+    escreva ("Escreva o valor de b: ")
+    leia (b)
+    escreva ("Escreva o valor de c: ")
+    leia (c)
+    
+    delta = ( b * b ) - (4 * a * c)
+
+    se (delta > 0)
+    escreva ("A equação tem duas raízes reais.")
+    
+    senao se (delta == 0 )
+    escreva("A equação tem uma raiz real")
+
+    senao
+    escreva("A equação não tem raízes reais")
+  }
+}
