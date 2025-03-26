@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    real b,h
+
+    escreva ("Digite o valor da base: ")
+    leia (b)
+    escreva ("Digite o valor da altura: ")
+    leia (h)
+    
+    se (b == h){
+      escreva ("A forma é um quadrado.")
+    }
+    senao se ( b != h){
+      escreva ("A forma é um retângulo.")
+    }
+    
+
+  }
+}
