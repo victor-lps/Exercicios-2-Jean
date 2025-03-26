@@ -1,5 +1,7 @@
 programa {
   funcao inicio() {
+    
+  
   inteiro n1, n2, n3, n4, n5
 
   escreva("Escreva o primeiro número: ")
@@ -24,3 +26,5 @@ programa {
   escreva ("O menor número é: ", n4)
   senao se (n5 < n1 e n5 < n2 e n5 < n3 e n5 < n4)
   escreva ("O menor número é: ", n5)
+  }
+}
