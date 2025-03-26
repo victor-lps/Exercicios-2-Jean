@@ -1,0 +1,27 @@
+programa {
+  funcao inicio() {
+
+    real a, b, w, x, y, z
+    
+    escreva ("Digite o primeiro número: ")
+    leia (a)
+    escreva ("Digite o segundo número: ")
+    leia (b)
+
+    w = (a + b)
+    x = (a - b)
+    y = (a * b)
+    z = (a / b)
+
+    escreva ("O primeiro número + o segundo número é: ", w)
+    escreva ("\n")
+    escreva ("O primeiro número - o segundo número é: ", x)
+    escreva ("\n")
+    escreva ("O primeiro número x o segundo número é: ", y)
+    escreva ("\n")
+    escreva ("O primeiro número % o segundo número é: ", z)
+
+
+
+  }
+}
